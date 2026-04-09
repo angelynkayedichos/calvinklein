@@ -1,0 +1,170 @@
+ body{
+       background:url(images/kklll.jpg);
+       background-repeat:no-repeat;   
+       background-size:cover;      
+       background-position:center;
+}
+.iop{
+       width:100;
+       height:40px;
+       margin-left:10px;
+}
+nav{
+        background: rgba(0,0,0,0.2);
+        width: 100%;
+        height: 92px;
+        position: fixed;
+        border-bottom: 1px solid black;
+        margin-right:50px;
+        margin-left:-150px;
+        margin-top:-480px;
+        font-family: Ariel;
+       
+}
+nav ul{
+        float: right;
+        display: flex;
+        list-style: none;
+}
+nav ul li a{
+       color: rgb(238, 231, 231);
+       line-height: 60px;
+       padding: 10px 22px;
+       font-size: 25px;
+       font-family: Ariel Black;
+       letter-spacing: 5px;
+       border-radius: 50%;
+
+}     
+nav ul li a:hover{
+       background-color: rgb(25, 20, 20);
+       justify-content: space-between;
+       
+
+}
+
+
+footer{
+  background-color: #111;
+  
+}
+.footerContainer{
+      width:100%
+   padding- 70px 30px 20px;
+   margin-right:-100px;
+   margin-left:-390px;
+   margin-top:-1px;
+        
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+    margin-top: 560px;
+    margin-right: 670px;
+}.socialIcons a{
+     text-decoration: none;
+     padding: 10px;
+     background-color: rgb(27, 19, 19);
+     margin: 10px;
+     border-radius: 50%;
+}
+
+.socialIcons a i{
+     font-size: 2rem;
+     color: rgb(243, 230, 230);
+     opacity: 0.9;
+}
+
+
+.socialIcons a:hover{
+     background-color: #f9f3f3;
+     transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+     color: rgb(15, 13, 13);
+     transition: 0.5s;
+}
+
+body{
+  text: center;
+  margin: top-100px;
+}
+body{
+  margin:0;
+  font-family: Ariel;
+  font-size: 27;
+  opacity: 0.9;
+  color: black;
+  margin-bottom:-95px;
+  margin-left:150px;
+  margin-right:-95px;
+  margin-top:250px;
+  margin-bottom:100px;
+ 
+}
+.logo {
+  margin-right:60;
+  margin-left:-40;
+  margin-top: -50;
+
+}
+/* Dropdown */
+.dropdown {
+   position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  min-width: 160px;
+  background: rgba(240, 234, 234, 0);
+  border: 5px;
+  border-radius: 10px;
+  list-style: none;
+  opacity: 0;
+  transition: translate(10px);
+  pointer-event: none;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  display:list-item;
+  
+}
+
+/* Dropdown links */
+.dropdown-menu a {
+  display: block;
+  padding: 0px 0px;
+  color: rgb(233, 234, 220);
+  transition: 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  color:rgb(218, 218, 203);
+  text-shadow: rgb(239, 239, 225);
+  background: rgba(0,0,0,0.8);
+  border-radius: 8px;
+}
+
+/* show dropdown on hover/focus */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+   opacity: 1;
+   transform: translateY(0);
+   pointer-events: auto;
+}
+
+.title p{
+font-size: 20px;
+text-decoration: none;
+font-family: serif;
+margin-top:5px;
+margin-bottom:30px;
+color: black;
+margin-right: 100px;
+margin-left:780px;
+}
+
+
